@@ -11,6 +11,9 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter an integer: ");
+    double i = in.nextDouble();
+    double i2 = i * i;
+    System.out.println("Square of " + i + "is " + i2);
   }
 }

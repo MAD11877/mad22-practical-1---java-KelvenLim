@@ -18,6 +18,31 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter an integer: ");
+    int i = in.nextInt();
+
+    //first loop is for number of rows
+    for (int a = 1; a <= i; a++)
+    {
+
+      //second loop is for the length of each row
+      for (int b = 1; b <= a; b++)
+      {
+        System.out.print("*");
+      }
+      
+      System.out.println();
+    }
+
+    /* for inverted triangle
+    for (int a = 1; a >= i; a--)
+    {
+      for (int b = 1; b <= a; b++)
+      {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+    */
   }
 }
